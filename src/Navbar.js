@@ -6,7 +6,7 @@ function Navbar() {
       <div className="container py-6">
         <div className="flex justify-between">
           <div className="logo">
-            <img src={logo} className="w-32" alt="" />
+            <h1 className="textlogo font-bold">CE</h1>
           </div>
           <div className="flex items-center">
             <ul className="flex gap-8 text-white">

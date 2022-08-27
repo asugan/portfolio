@@ -3,8 +3,8 @@ import fs from "./images/full.svg";
 function HomeComponent() {
   return (
     <div className="homecomp">
-      <div className="container grid grid-cols-1 md:grid-cols-2 pt-24">
-        <div className="fs">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 py-8">
+        <div className="fs flex justify-center">
           <img src={fs} alt="" />
         </div>
         <div className="flex flex-col justify-center items-center">

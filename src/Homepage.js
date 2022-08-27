@@ -6,7 +6,7 @@ import Skills from "./Skills";
 function Homepage() {
   return (
     <React.StrictMode>
-      <div className="h-screen">
+      <div className="lg:h-screen">
         <Navbar />
         <HomeComponent />
       </div>
