@@ -1,7 +1,7 @@
-import lpnotes from "./images/lpn.png";
-import arti from "./images/arti.png";
-import dnz from "./images/dnzz.png";
-import eternity from "./images/eternity.png";
+import lpnotes from "./images/lpn_5_11zon.webp";
+import arti from "./images/arti_1_11zon.webp";
+import dnz from "./images/dnzz_2_11zon.webp";
+import eternity from "./images/eternity_3_11zon.webp";
 import html from "./images/html.svg";
 import css from "./images/css.svg";
 import tailwind from "./images/tailwind.svg";
@@ -14,8 +14,8 @@ import javascript from "./images/js.svg";
 import node from "./images/node.svg";
 import reactjs from "./images/reactjs.svg";
 import vue from "./images/vue.svg";
-import fgcodes from "./images/fgcodes.png";
-import vueblog from "./images/vueblog.png";
+import fgcodes from "./images/fgcodes_4_11zon.webp";
+import vueblog from "./images/vueblog_11zon.webp";
 
 function Skills() {
   return (

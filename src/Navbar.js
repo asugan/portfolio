@@ -1,5 +1,3 @@
-import logo from "./images/lpnotes.png";
-
 function Navbar() {
   return (
     <div className="navbar">
