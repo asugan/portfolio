@@ -9,6 +9,10 @@ body{
     color: orange;
 }
 
+.ul-text{
+    color: orange;
+}
+
 .textlogo{
     font-size: 3rem;
     color: orange;
@@ -44,7 +48,21 @@ body{
     border-right: 3px solid black;
 }
 
-.imagecontainer{
+.buttondiv{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.contactbutton{
+    color: white;
+    background-color: orange;
+    padding: 1rem;
+}
+
+.contactbutton:hover{
+    background-color: white;
+    color: orange;
+    transition: 500ms;
 }
 
 .imagediv {

@@ -9,20 +9,20 @@ function Navbar() {
             <h1 className="textlogo font-bold">CE</h1>
           </div>
           <div className="flex items-center">
-            <ul className="flex gap-8 text-white">
+            <ul className="flex gap-8 ul-text">
               <li className="bold text-xl">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Home
                 </a>
               </li>
               <li className="bold text-xl">
-                <a className="hover:underline" href="#">
-                  About
+                <a className="hover:underline" href="#portfolio">
+                  Portfolio
                 </a>
               </li>
               <li className="bold text-xl">
-                <a className="hover:underline" href="#">
-                  Portfolio
+                <a className="hover:underline" href="#contact">
+                  Contact
                 </a>
               </li>
             </ul>

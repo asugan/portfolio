@@ -2,6 +2,7 @@ import HomeComponent from "./HomeComponent";
 import Navbar from "./Navbar";
 import React from "react";
 import Skills from "./Skills";
+import Contact from "./Contact";
 
 function Homepage() {
   return (
@@ -11,6 +12,7 @@ function Homepage() {
         <HomeComponent />
       </div>
       <Skills />
+      <Contact />
     </React.StrictMode>
   );
 }

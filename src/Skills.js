@@ -19,7 +19,7 @@ import vueblog from "./images/vueblog.png";
 
 function Skills() {
   return (
-    <div className="Skills">
+    <div className="Skills" id="portfolio">
       <div className="container">
         <div>
           <h1 className="hello text-center">Skills</h1>
@@ -32,6 +32,7 @@ function Skills() {
                 <div className="imagediv">
                   <div class="text flex flex-col gap-8">
                     <h1>latestpatchnotes.com</h1>
+                    <h2>Laravel-Tailwind-Nodejs</h2>
                     <a
                       className="text-2xl"
                       target="_blanck"
@@ -46,11 +47,12 @@ function Skills() {
                 <img className="img1 w-full h-96" src={arti} alt="" />
                 <div className="imagediv">
                   <div class="text flex flex-col gap-8">
-                    <h1>latestpatchnotes.com</h1>
+                    <h1>artimuhendislikinsaat.com.tr</h1>
+                    <h2>Laravel-Bootstrap</h2>
                     <a
                       className="text-2xl"
                       target="_blanck"
-                      href="https://latestpatchnotes.com"
+                      href="https://artimuhendislikinsaat.com.tr"
                     >
                       View Project
                     </a>
@@ -61,11 +63,12 @@ function Skills() {
                 <img className="img1 w-full h-96" src={dnz} alt="" />
                 <div className="imagediv">
                   <div class="text flex flex-col gap-8">
-                    <h1>latestpatchnotes.com</h1>
+                    <h1>dnzambalaj.com.tr</h1>
+                    <h2>Wordpress</h2>
                     <a
                       className="text-2xl"
                       target="_blanck"
-                      href="https://latestpatchnotes.com"
+                      href="https://dnzambalaj.com.tr"
                     >
                       View Project
                     </a>
@@ -76,7 +79,8 @@ function Skills() {
                 <img className="img1 w-full h-96" src={eternity} alt="" />
                 <div className="imagediv">
                   <div class="text flex flex-col gap-8">
-                    <h1>latestpatchnotes.com</h1>
+                    <h1>eternity.software</h1>
+                    <h2>Javascript</h2>
                     <a
                       className="text-2xl"
                       target="_blanck"
@@ -91,11 +95,12 @@ function Skills() {
                 <img className="img1 w-full h-96" src={fgcodes} alt="" />
                 <div className="imagediv">
                   <div class="text flex flex-col gap-8">
-                    <h1>latestpatchnotes.com</h1>
+                    <h1>asugan.netlify.app</h1>
+                    <h2>React</h2>
                     <a
                       className="text-2xl"
                       target="_blanck"
-                      href="https://latestpatchnotes.com"
+                      href="https://asugan.netlify.app"
                     >
                       View Project
                     </a>
@@ -106,12 +111,8 @@ function Skills() {
                 <img className="img1 w-full h-96" src={vueblog} alt="" />
                 <div className="imagediv">
                   <div class="text flex flex-col gap-8">
-                    <h1>latestpatchnotes.com</h1>
-                    <a
-                      className="text-2xl"
-                      target="_blanck"
-                      href="https://latestpatchnotes.com"
-                    >
+                    <h1>Vue-Laravel Fullstack Blog</h1>
+                    <a className="text-2xl" target="_blanck" href="https://#">
                       View Project
                     </a>
                   </div>
@@ -219,8 +220,8 @@ function Skills() {
                 <div className="HTML1"></div>
                 <div className="HTML1"></div>
                 <div className="HTML1"></div>
-                <div className="HTML2"></div>
-                <div className="HTML2"></div>
+                <div className="HTML1"></div>
+                <div className="HTML1"></div>
                 <div className="HTML2"></div>
                 <div className="HTML2"></div>
               </div>
@@ -236,8 +237,8 @@ function Skills() {
                 <div className="HTML1"></div>
                 <div className="HTML1"></div>
                 <div className="HTML1"></div>
-                <div className="HTML2"></div>
-                <div className="HTML2"></div>
+                <div className="HTML1"></div>
+                <div className="HTML1"></div>
                 <div className="HTML2"></div>
                 <div className="HTML2"></div>
               </div>
@@ -254,8 +255,8 @@ function Skills() {
                 <div className="HTML1"></div>
                 <div className="HTML1"></div>
                 <div className="HTML1"></div>
-                <div className="HTML2"></div>
-                <div className="HTML2"></div>
+                <div className="HTML1"></div>
+                <div className="HTML1"></div>
                 <div className="HTML2"></div>
                 <div className="HTML2"></div>
               </div>
