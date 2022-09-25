@@ -7,7 +7,7 @@ import Contact from "./Contact";
 function Homepage() {
   return (
     <React.StrictMode>
-      <div className="lg:h-screen">
+      <div className="lg:h-screen backg">
         <Navbar />
         <HomeComponent />
       </div>
