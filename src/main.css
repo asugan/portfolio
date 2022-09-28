@@ -1,6 +1,12 @@
 body{
+    background-color: #1d1e22;
+}
+
+.backg{
     background: url(./images/bg.webp);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .hello{
@@ -56,7 +62,9 @@ body{
 .contactbutton{
     color: white;
     background-color: orange;
-    padding: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 .contactbutton:hover{
@@ -94,4 +102,17 @@ body{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    .logohtml{
+        width: 70px;
+        height: 100px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .rightgrid{
+        margin-top: 3rem;
+    }
   }
